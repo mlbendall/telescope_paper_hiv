@@ -1,0 +1,207 @@
+<?xml version="1.0" ?>
+<EXPERIMENT_PACKAGE_SET>
+	
+
+	<EXPERIMENT_PACKAGE>
+		<EXPERIMENT accession="SRX906470" alias="HIV3" center_name="UPENNBL">
+			<IDENTIFIERS>
+				<PRIMARY_ID>SRX906470</PRIMARY_ID>
+				<SUBMITTER_ID namespace="UPENNBL">HIV3</SUBMITTER_ID>
+			</IDENTIFIERS>
+			<TITLE>RNA-Seq from HIV infected CD4+ T cells replicate 3</TITLE>
+			<STUDY_REF accession="SRP055981">
+				<IDENTIFIERS>
+					<PRIMARY_ID>SRP055981</PRIMARY_ID>
+					<EXTERNAL_ID namespace="BioProject">PRJNA277687</EXTERNAL_ID>
+				</IDENTIFIERS>
+			</STUDY_REF>
+			<DESIGN>
+				<DESIGN_DESCRIPTION/>
+				<SAMPLE_DESCRIPTOR accession="SRS866693">
+					<IDENTIFIERS>
+						<PRIMARY_ID>SRS866693</PRIMARY_ID>
+					</IDENTIFIERS>
+				</SAMPLE_DESCRIPTOR>
+				<LIBRARY_DESCRIPTOR>
+					<LIBRARY_NAME/>
+					<LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY>
+					<LIBRARY_SOURCE>TRANSCRIPTOMIC</LIBRARY_SOURCE>
+					<LIBRARY_SELECTION>PolyA</LIBRARY_SELECTION>
+					<LIBRARY_LAYOUT>
+						<PAIRED NOMINAL_SDEV="0.0E0"/>
+					</LIBRARY_LAYOUT>
+				</LIBRARY_DESCRIPTOR>
+				<SPOT_DESCRIPTOR>
+					<SPOT_DECODE_SPEC>
+						<SPOT_LENGTH>202</SPOT_LENGTH>
+						<READ_SPEC>
+							<READ_INDEX>0</READ_INDEX>
+							<READ_CLASS>Application Read</READ_CLASS>
+							<READ_TYPE>Forward</READ_TYPE>
+							<BASE_COORD>1</BASE_COORD>
+						</READ_SPEC>
+						<READ_SPEC>
+							<READ_INDEX>1</READ_INDEX>
+							<READ_CLASS>Application Read</READ_CLASS>
+							<READ_TYPE>Reverse</READ_TYPE>
+							<BASE_COORD>102</BASE_COORD>
+						</READ_SPEC>
+					</SPOT_DECODE_SPEC>
+				</SPOT_DESCRIPTOR>
+			</DESIGN>
+			<PLATFORM>
+				<ILLUMINA>
+					<INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+				</ILLUMINA>
+			</PLATFORM>
+			<PROCESSING/>
+		</EXPERIMENT>
+		<SUBMISSION accession="SRA245852" alias="Scott_hiv" center_name="UPENNBL" lab_name="">
+			<IDENTIFIERS>
+				<PRIMARY_ID>SRA245852</PRIMARY_ID>
+				<SUBMITTER_ID namespace="UPENNBL">Scott_hiv</SUBMITTER_ID>
+			</IDENTIFIERS>
+		</SUBMISSION>
+		<Organization type="center">
+			<Name abbr="UPENNBL">University of Pennsylvania, Bushman Laboratory</Name>
+		</Organization>
+		<STUDY accession="SRP055981" alias="PRJNA277687" center_name="BioProject">
+			<IDENTIFIERS>
+				<PRIMARY_ID>SRP055981</PRIMARY_ID>
+				<EXTERNAL_ID namespace="BioProject">PRJNA277687</EXTERNAL_ID>
+			</IDENTIFIERS>
+			<DESCRIPTOR>
+				<STUDY_TITLE>RNA-Seq of HIV-infected human primary CD4+ T cells</STUDY_TITLE>
+				<STUDY_TYPE existing_study_type="Other"/>
+				<STUDY_ABSTRACT>RNA-Seq of mRNA from human primary CD4+ T cells infected with the low passage isolate HIV89.6 and uninfected controls</STUDY_ABSTRACT>
+				<CENTER_PROJECT_NAME>Homo sapiens</CENTER_PROJECT_NAME>
+			</DESCRIPTOR>
+		</STUDY>
+		<SAMPLE accession="SRS866693" alias="HIV3" center_name="University of Pennsylvania">
+			<IDENTIFIERS>
+				<PRIMARY_ID>SRS866693</PRIMARY_ID>
+				<EXTERNAL_ID namespace="BioSample">SAMN03392902</EXTERNAL_ID>
+				<SUBMITTER_ID namespace="University of Pennsylvania">HIV3</SUBMITTER_ID>
+			</IDENTIFIERS>
+			<SAMPLE_NAME>
+				<TAXON_ID>9606</TAXON_ID>
+				<SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+			</SAMPLE_NAME>
+			<SAMPLE_ATTRIBUTES>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>isolate</TAG>
+					<VALUE>ND365</VALUE>
+				</SAMPLE_ATTRIBUTE>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>age</TAG>
+					<VALUE>Not collected</VALUE>
+				</SAMPLE_ATTRIBUTE>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>biomaterial_provider</TAG>
+					<VALUE>PENN CFAR Immunology Core</VALUE>
+				</SAMPLE_ATTRIBUTE>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>sex</TAG>
+					<VALUE>male</VALUE>
+				</SAMPLE_ATTRIBUTE>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>tissue</TAG>
+					<VALUE>CD4+ T cells</VALUE>
+				</SAMPLE_ATTRIBUTE>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>treatment</TAG>
+					<VALUE>HIV infected</VALUE>
+				</SAMPLE_ATTRIBUTE>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>replicate</TAG>
+					<VALUE>3</VALUE>
+				</SAMPLE_ATTRIBUTE>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>BioSampleModel</TAG>
+					<VALUE>Human</VALUE>
+				</SAMPLE_ATTRIBUTE>
+			</SAMPLE_ATTRIBUTES>
+		</SAMPLE>
+		<Pool>
+			<Member accession="SRS866693" bases="23608835850" member_name="" organism="Homo sapiens" sample_name="HIV3" spots="116875425" tax_id="9606">
+				<IDENTIFIERS>
+					<PRIMARY_ID>SRS866693</PRIMARY_ID>
+					<EXTERNAL_ID namespace="BioSample">SAMN03392902</EXTERNAL_ID>
+					<SUBMITTER_ID namespace="University of Pennsylvania">HIV3</SUBMITTER_ID>
+				</IDENTIFIERS>
+			</Member>
+		</Pool>
+		<RUN_SET>
+			<RUN accession="SRR1852881" alias="HIV3" center_name="UPENNBL" cluster_name="public" is_public="true" load_done="true" published="2015-03-09 19:10:56" size="16273077181" static_data_available="1" total_bases="23608835850" total_spots="116875425">
+				<IDENTIFIERS>
+					<PRIMARY_ID>SRR1852881</PRIMARY_ID>
+					<SUBMITTER_ID namespace="UPENNBL">HIV3</SUBMITTER_ID>
+				</IDENTIFIERS>
+				<EXPERIMENT_REF accession="SRX906470"/>
+				<Pool>
+					<Member accession="SRS866693" bases="23608835850" member_name="" organism="Homo sapiens" sample_name="HIV3" spots="116875425" tax_id="9606">
+						<IDENTIFIERS>
+							<PRIMARY_ID>SRS866693</PRIMARY_ID>
+							<EXTERNAL_ID namespace="BioSample">SAMN03392902</EXTERNAL_ID>
+							<SUBMITTER_ID namespace="University of Pennsylvania">HIV3</SUBMITTER_ID>
+						</IDENTIFIERS>
+					</Member>
+				</Pool>
+				<QualityCount>
+					<Quality count="1773337364" value="2"/>
+					<Quality count="4492226" value="4"/>
+					<Quality count="5109645" value="5"/>
+					<Quality count="11144167" value="6"/>
+					<Quality count="13656688" value="7"/>
+					<Quality count="15115468" value="8"/>
+					<Quality count="18007891" value="9"/>
+					<Quality count="25047130" value="10"/>
+					<Quality count="29550514" value="11"/>
+					<Quality count="25488412" value="12"/>
+					<Quality count="59010486" value="13"/>
+					<Quality count="33769959" value="14"/>
+					<Quality count="39274166" value="15"/>
+					<Quality count="45788884" value="16"/>
+					<Quality count="53293041" value="17"/>
+					<Quality count="66422478" value="18"/>
+					<Quality count="81153994" value="19"/>
+					<Quality count="111681313" value="20"/>
+					<Quality count="110053827" value="21"/>
+					<Quality count="116390504" value="22"/>
+					<Quality count="112625116" value="23"/>
+					<Quality count="162323128" value="24"/>
+					<Quality count="181750277" value="25"/>
+					<Quality count="188533635" value="26"/>
+					<Quality count="275495847" value="27"/>
+					<Quality count="253218069" value="28"/>
+					<Quality count="325744480" value="29"/>
+					<Quality count="426206896" value="30"/>
+					<Quality count="487628860" value="31"/>
+					<Quality count="478818106" value="32"/>
+					<Quality count="884255865" value="33"/>
+					<Quality count="819307961" value="34"/>
+					<Quality count="1305459970" value="35"/>
+					<Quality count="2016759286" value="36"/>
+					<Quality count="2756590173" value="37"/>
+					<Quality count="1927416645" value="38"/>
+					<Quality count="8340088469" value="39"/>
+					<Quality count="28824910" value="40"/>
+				</QualityCount>
+				<Statistics nreads="2" nspots="116875425">
+					<Read average="101" count="116875425" index="0" stdev="0"/>
+					<Read average="101" count="116875425" index="1" stdev="0"/>
+				</Statistics>
+				<Bases count="23608835850" cs_native="false">
+					<Base count="6058504911" value="A"/>
+					<Base count="5743970304" value="C"/>
+					<Base count="5754345257" value="G"/>
+					<Base count="5991817564" value="T"/>
+					<Base count="60197814" value="N"/>
+				</Bases>
+			</RUN>
+		</RUN_SET>
+	</EXPERIMENT_PACKAGE>
+	
+
+</EXPERIMENT_PACKAGE_SET>
+

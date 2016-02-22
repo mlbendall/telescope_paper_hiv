@@ -1,0 +1,17 @@
+run_accession	run_alias	run_bases	run_nspots	run_readperspot	sample_accession	sample_alias	sample_human_cell_line	sample_human_cell_type	sample_infection	sample_source_name	sample_time
+SRR1106204	GSM1305157_r1	3402487800	18902710	2	SRS528602	GSM1305157	SUPT1	CD4+ T cell line	UV-inactivated virions	Total RNA from UV-inactivated virions SUPT1 at 24 hours post-infection	24 hours post-infection
+SRR1106203	GSM1305156_r1	2751417720	15285654	2	SRS528603	GSM1305156	SUPT1	CD4+ T cell line	UV-inactivated virions	Total RNA from UV-inactivated virions SUPT1 at 24 hours post-infection	24 hours post-infection
+SRR1106202	GSM1305155_r1	3327833340	18487963	2	SRS528601	GSM1305155	SUPT1	CD4+ T cell line	UV-inactivated virions	Total RNA from UV-inactivated virions SUPT1 at 12 hours post-infection	12 hours post-infection
+SRR1106201	GSM1305154_r1	2943555120	16353084	2	SRS528600	GSM1305154	SUPT1	CD4+ T cell line	UV-inactivated virions	Total RNA from UV-inactivated virions SUPT1 at 12 hours post-infection	12 hours post-infection
+SRR1106200	GSM1305153_r1	3542572800	19680960	2	SRS528599	GSM1305153	SUPT1	CD4+ T cell line	UV-inactivated virions	Total RNA from UV-inactivated virions SUPT1 at 12 hours post-infection	12 hours post-infection
+SRR1106199	GSM1305152_r1	3302333640	18346298	2	SRS528598	GSM1305152	SUPT1	CD4+ T cell line	mock	Total RNA from mock-infected SUPT1 at 24 hours post-infection	24 hours post-infection
+SRR1106198	GSM1305151_r1	2854784160	15859912	2	SRS528597	GSM1305151	SUPT1	CD4+ T cell line	mock	Total RNA from mock-infected SUPT1 at 24 hours post-infection	24 hours post-infection
+SRR1106197	GSM1305150_r1	4100494860	22780527	2	SRS528596	GSM1305150	SUPT1	CD4+ T cell line	mock	Total RNA from mock-infected SUPT1 at 12 hours post-infection	24 hours post-infection
+SRR1106196	GSM1305149_r1	2590251300	14390285	2	SRS528595	GSM1305149	SUPT1	CD4+ T cell line	mock	Total RNA from mock-infected SUPT1 at 12 hours post-infection	12 hours post-infection
+SRR1106195	GSM1305148_r1	3183257700	17684765	2	SRS528594	GSM1305148	SUPT1	CD4+ T cell line	mock	Total RNA from mock-infected SUPT1 at 12 hours post-infection	12 hours post-infection
+SRR1106194	GSM1305147_r1	3391605360	18842252	2	SRS528593	GSM1305147	SUPT1	CD4+ T cell line	HIV-1	Total RNA from HIV-infected SUPT1 at 24 hours post-infection	12 hours post-infection
+SRR1106193	GSM1305146_r1	3305396520	18363314	2	SRS528592	GSM1305146	SUPT1	CD4+ T cell line	HIV-1	Total RNA from HIV-infected SUPT1 at 24 hours post-infection	24 hours post-infection
+SRR1106192	GSM1305145_r1	3926548980	21814161	2	SRS528591	GSM1305145	SUPT1	CD4+ T cell line	HIV-1	Total RNA from HIV-infected SUPT1 at 24 hours post-infection	24 hours post-infection
+SRR1106191	GSM1305144_r1	4092455520	22735864	2	SRS528590	GSM1305144	SUPT1	CD4+ T cell line	HIV-1	Total RNA from HIV-infected SUPT1 at 12 hours post-infection	12 hours post-infection
+SRR1106190	GSM1305143_r1	3200584500	17781025	2	SRS528589	GSM1305143	SUPT1	CD4+ T cell line	HIV-1	Total RNA from HIV-infected SUPT1 at 12 hours post-infection	12 hours post-infection
+SRR1106189	GSM1305142_r1	3321368100	18452045	2	SRS528588	GSM1305142	SUPT1	CD4+ T cell line	HIV-1	Total RNA from HIV-infected SUPT1 at 12 hours post-infection	12 hours post-infection

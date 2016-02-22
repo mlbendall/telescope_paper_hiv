@@ -1,0 +1,12 @@
+run_accession	run_alias	run_bases	run_nspots	run_readperspot	sample_accession	sample_alias	sample_cell_line	sample_infection	sample_source_name	sample_time
+SRR497709	GSM931775_r1	1907110650	25428142	1	SRS334137	GSM931775	CD4+ human T-cell line SupT1	Mock	polyA RNA from HIV-infected SUPT1 at 24 hours post-infection, replicate 3	24 hours post-infection
+SRR497708	GSM931774_r1	2428788450	32383846	1	SRS334136	GSM931774	CD4+ human T-cell line SupT1	Mock	polyA RNA from HIV-infected SUPT1 at 24 hours post-infection, replicate 2	24 hours post-infection
+SRR497707	GSM931773_r1	2259134175	30121789	1	SRS334135	GSM931773	CD4+ human T-cell line SupT1	Mock	polyA RNA from HIV-infected SUPT1 at 24 hours post-infection, replicate 1	12 hours post-infection
+SRR497706	GSM931772_r1	2424815100	32330868	1	SRS334134	GSM931772	CD4+ human T-cell line SupT1	Mock	polyA RNA from mock-infected SUPT1 at 24 hours post-infection, replicate 3	12 hours post-infection
+SRR497705	GSM931771_r1	2319900600	30932008	1	SRS334133	GSM931771	CD4+ human T-cell line SupT1	Mock	polyA RNA from mock-infected SUPT1 at 24 hours post-infection, replicate 2	12 hours post-infection
+SRR497704	GSM931770_r1	1752961125	23372815	1	SRS334132	GSM931770	CD4+ human T-cell line SupT1	HIV	polyA RNA from mock-infected SUPT1 at 24 hours post-infection, replicate 1	24 hours post-infection
+SRR497703	GSM931769_r1	1831434075	24419121	1	SRS334131	GSM931769	CD4+ human T-cell line SupT1	HIV	polyA RNA from HIV-infected SUPT1 at 12 hours post-infection, replicate 3	24 hours post-infection
+SRR497702	GSM931768_r1	1795223400	23936312	1	SRS334130	GSM931768	CD4+ human T-cell line SupT1	HIV	polyA RNA from HIV-infected SUPT1 at 12 hours post-infection, replicate 2	24 hours post-infection
+SRR497701	GSM931767_r1	2232788700	29770516	1	SRS334129	GSM931767	CD4+ human T-cell line SupT1	HIV	polyA RNA from HIV-infected SUPT1 at 12 hours post-infection, replicate 1	12 hours post-infection
+SRR497700	GSM931766_r1	2670291600	35603888	1	SRS334128	GSM931766	CD4+ human T-cell line SupT1	HIV	polyA RNA from mock-infected SUPT1 at 12 hours post-infection, replicate 2	12 hours post-infection
+SRR497699	GSM931765_r1	2352153675	31362049	1	SRS334127	GSM931765	CD4+ human T-cell line SupT1	HIV	polyA RNA from mock-infected SUPT1 at 12 hours post-infection, replicate 1	12 hours post-infection

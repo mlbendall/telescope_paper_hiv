@@ -1,0 +1,236 @@
+<?xml version="1.0" ?>
+<EXPERIMENT_PACKAGE_SET>
+	
+
+	<EXPERIMENT_PACKAGE>
+		<EXPERIMENT accession="SRX424927" alias="GSM1305143" center_name="GEO">
+			<IDENTIFIERS>
+				<PRIMARY_ID>SRX424927</PRIMARY_ID>
+				<SUBMITTER_ID namespace="GEO">GSM1305143</SUBMITTER_ID>
+			</IDENTIFIERS>
+			<TITLE>GSM1305143: HIV_12hr_rep2; Homo sapiens; Human immunodeficiency virus 1; RNA-Seq</TITLE>
+			<STUDY_REF accession="SRP035316" refname="GSE53993">
+				<IDENTIFIERS>
+					<PRIMARY_ID>SRP035316</PRIMARY_ID>
+					<SUBMITTER_ID namespace="GEO">GSE53993</SUBMITTER_ID>
+				</IDENTIFIERS>
+			</STUDY_REF>
+			<DESIGN>
+				<DESIGN_DESCRIPTION/>
+				<SAMPLE_DESCRIPTOR accession="SRS528589">
+					<IDENTIFIERS>
+						<PRIMARY_ID>SRS528589</PRIMARY_ID>
+						<EXTERNAL_ID namespace="GEO">GSM1305143</EXTERNAL_ID>
+					</IDENTIFIERS>
+				</SAMPLE_DESCRIPTOR>
+				<LIBRARY_DESCRIPTOR>
+					<LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY>
+					<LIBRARY_SOURCE>TRANSCRIPTOMIC</LIBRARY_SOURCE>
+					<LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION>
+					<LIBRARY_LAYOUT>
+						<PAIRED/>
+					</LIBRARY_LAYOUT>
+					<LIBRARY_CONSTRUCTION_PROTOCOL>Approximately 20 μg of total RNA from each sample was submitted to the Beijing Genomics Institute (BGI) for sequencing. In brief, ribosomal RNAs (rRNAs) were depleted using the RiboMinus™ Human/Mouse Transcriptome Isolation Kit (Invitrogen, CA). rRNA-depleted RNAs were fragmented, and cDNA synthesis was primed using random hexamers. Short fragments were purified for an average insert size of 200 nt, and then ligated with proprietary adapters. The 2x90 nt paired-end sequencing was done using an Illumina HiSeq™ 2000.</LIBRARY_CONSTRUCTION_PROTOCOL>
+				</LIBRARY_DESCRIPTOR>
+			</DESIGN>
+			<PLATFORM>
+				<ILLUMINA>
+					<INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+				</ILLUMINA>
+			</PLATFORM>
+			<EXPERIMENT_LINKS>
+				<EXPERIMENT_LINK>
+					<URL_LINK>
+						<LABEL>GEO Sample GSM1305143</LABEL>
+						<URL>http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1305143</URL>
+					</URL_LINK>
+				</EXPERIMENT_LINK>
+				<EXPERIMENT_LINK>
+					<XREF_LINK>
+						<DB>gds</DB>
+						<ID>301305143</ID>
+					</XREF_LINK>
+				</EXPERIMENT_LINK>
+			</EXPERIMENT_LINKS>
+			<EXPERIMENT_ATTRIBUTES>
+				<EXPERIMENT_ATTRIBUTE>
+					<TAG>GEO Accession</TAG>
+					<VALUE>GSM1305143</VALUE>
+				</EXPERIMENT_ATTRIBUTE>
+			</EXPERIMENT_ATTRIBUTES>
+		</EXPERIMENT>
+		<SUBMISSION accession="SRA124137" alias="GEO: GSE53993" broker_name="GEO" center_name="GEO" lab_name="" submission_comment="submission brokered by GEO">
+			<IDENTIFIERS>
+				<PRIMARY_ID>SRA124137</PRIMARY_ID>
+				<SUBMITTER_ID namespace="GEO">GEO: GSE53993</SUBMITTER_ID>
+			</IDENTIFIERS>
+		</SUBMISSION>
+		<Organization type="center">
+			<Name abbr="GEO">Gene Expression Omnibus</Name>
+		</Organization>
+		<STUDY accession="SRP035316" alias="GSE53993" center_name="GEO">
+			<IDENTIFIERS>
+				<PRIMARY_ID>SRP035316</PRIMARY_ID>
+				<EXTERNAL_ID label="primary" namespace="BioProject">PRJNA234297</EXTERNAL_ID>
+				<EXTERNAL_ID namespace="GEO">GSE53993</EXTERNAL_ID>
+			</IDENTIFIERS>
+			<DESCRIPTOR>
+				<STUDY_TITLE>Comparative total RNA and mRNA sequencing and systems analysis reveals nascent transcriptional response to early HIV-1 infection in a CD4+ T cell line</STUDY_TITLE>
+				<STUDY_TYPE existing_study_type="Other"/>
+				<STUDY_ABSTRACT>To systematically investigate early host transcriptional response to HIV-1 infection, including polyadenylated and non-polyadenylated transcripts, we separately sequenced Total RNAs (Total RNA-seq) from HIV-1-infected SupT1 cells, a human CD4+ T cell line. We show many non-polyadenylated RNAs were also differentially expressed upon HIV-1 infection, as expected only detected by Total RNA-seq. Interestingly, we identified 8 times more differentially expressed genes at 12 hour post-infection by Total RNA-seq than by mRNA-seq, mostly protein-coding genes. Overall design: 6 Total RNA sample sets were sequenced. Samples were either Mock infected, HIV-1 infected, or UV-inactivated viron infected for either 12 hours or 24 hours. Each sample set contains replicates. mRNA-seq data was processed previously and is part of a different study. It was referenced in this study. The mRNA-seq data can be found in GSE38006. This data set refers to the Whole Transcriptome data from similar samples.</STUDY_ABSTRACT>
+				<CENTER_PROJECT_NAME>GSE53993</CENTER_PROJECT_NAME>
+			</DESCRIPTOR>
+			<STUDY_LINKS>
+				<STUDY_LINK>
+					<XREF_LINK>
+						<DB>pubmed</DB>
+						<ID>24850744</ID>
+					</XREF_LINK>
+				</STUDY_LINK>
+			</STUDY_LINKS>
+		</STUDY>
+		<SAMPLE accession="SRS528589" alias="GSM1305143" center_name="GEO">
+			<IDENTIFIERS>
+				<PRIMARY_ID>SRS528589</PRIMARY_ID>
+				<EXTERNAL_ID namespace="BioSample">SAMN02581471</EXTERNAL_ID>
+				<EXTERNAL_ID namespace="GEO">GSM1305143</EXTERNAL_ID>
+			</IDENTIFIERS>
+			<TITLE>HIV_12hr_rep2</TITLE>
+			<SAMPLE_NAME>
+				<TAXON_ID>11676</TAXON_ID>
+				<SCIENTIFIC_NAME>Human immunodeficiency virus 1</SCIENTIFIC_NAME>
+			</SAMPLE_NAME>
+			<SAMPLE_LINKS>
+				<SAMPLE_LINK>
+					<XREF_LINK>
+						<DB>bioproject</DB>
+						<ID>234297</ID>
+						<LABEL>PRJNA234297</LABEL>
+					</XREF_LINK>
+				</SAMPLE_LINK>
+			</SAMPLE_LINKS>
+			<SAMPLE_ATTRIBUTES>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>source_name</TAG>
+					<VALUE>Total RNA from HIV-infected SUPT1 at 12 hours post-infection</VALUE>
+				</SAMPLE_ATTRIBUTE>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>human cell line</TAG>
+					<VALUE>SUPT1</VALUE>
+				</SAMPLE_ATTRIBUTE>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>human cell type</TAG>
+					<VALUE>CD4+ T cell line</VALUE>
+				</SAMPLE_ATTRIBUTE>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>infection</TAG>
+					<VALUE>HIV-1</VALUE>
+				</SAMPLE_ATTRIBUTE>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>time</TAG>
+					<VALUE>12 hours post-infection</VALUE>
+				</SAMPLE_ATTRIBUTE>
+			</SAMPLE_ATTRIBUTES>
+		</SAMPLE>
+		<Pool>
+			<Member accession="SRS528589" bases="3200584500" member_name="" organism="Human immunodeficiency virus 1" sample_name="GSM1305143" sample_title="HIV_12hr_rep2" spots="17781025" tax_id="11676">
+				<IDENTIFIERS>
+					<PRIMARY_ID>SRS528589</PRIMARY_ID>
+					<EXTERNAL_ID namespace="BioSample">SAMN02581471</EXTERNAL_ID>
+					<EXTERNAL_ID namespace="GEO">GSM1305143</EXTERNAL_ID>
+				</IDENTIFIERS>
+			</Member>
+		</Pool>
+		<RUN_SET>
+			<RUN accession="SRR1106190" alias="GSM1305143_r1" center_name="GEO" cluster_name="public" is_public="true" load_done="true" published="2015-07-22 17:06:29" size="1963911876" static_data_available="1" total_bases="3200584500" total_spots="17781025">
+				<IDENTIFIERS>
+					<PRIMARY_ID>SRR1106190</PRIMARY_ID>
+					<SUBMITTER_ID namespace="GEO">GSM1305143_r1</SUBMITTER_ID>
+				</IDENTIFIERS>
+				<EXPERIMENT_REF accession="SRX424927" refname="GSM1305143">
+					<IDENTIFIERS>
+						<PRIMARY_ID>SRX424927</PRIMARY_ID>
+						<SUBMITTER_ID namespace="GEO">GSM1305143</SUBMITTER_ID>
+					</IDENTIFIERS>
+				</EXPERIMENT_REF>
+				<PLATFORM>
+					<ILLUMINA>
+						<INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+					</ILLUMINA>
+				</PLATFORM>
+				<Pool>
+					<Member accession="SRS528589" bases="3200584500" member_name="" organism="Human immunodeficiency virus 1" sample_name="GSM1305143" sample_title="HIV_12hr_rep2" spots="17781025" tax_id="11676">
+						<IDENTIFIERS>
+							<PRIMARY_ID>SRS528589</PRIMARY_ID>
+							<EXTERNAL_ID namespace="BioSample">SAMN02581471</EXTERNAL_ID>
+							<EXTERNAL_ID namespace="GEO">GSM1305143</EXTERNAL_ID>
+						</IDENTIFIERS>
+					</Member>
+				</Pool>
+				<QualityCount>
+					<Quality count="273836395" value="2"/>
+					<Quality count="35182" value="3"/>
+					<Quality count="380089" value="4"/>
+					<Quality count="655406" value="5"/>
+					<Quality count="1263078" value="6"/>
+					<Quality count="1855552" value="7"/>
+					<Quality count="1953625" value="8"/>
+					<Quality count="4073197" value="9"/>
+					<Quality count="2675076" value="10"/>
+					<Quality count="3596691" value="11"/>
+					<Quality count="11265099" value="12"/>
+					<Quality count="4284818" value="13"/>
+					<Quality count="2437465" value="14"/>
+					<Quality count="3907630" value="15"/>
+					<Quality count="3814559" value="16"/>
+					<Quality count="5028167" value="17"/>
+					<Quality count="5857647" value="18"/>
+					<Quality count="7669741" value="19"/>
+					<Quality count="28455657" value="20"/>
+					<Quality count="12166676" value="21"/>
+					<Quality count="12879669" value="22"/>
+					<Quality count="8824195" value="23"/>
+					<Quality count="11313508" value="24"/>
+					<Quality count="48752807" value="25"/>
+					<Quality count="21357535" value="26"/>
+					<Quality count="13821310" value="27"/>
+					<Quality count="65010947" value="28"/>
+					<Quality count="35478820" value="29"/>
+					<Quality count="93363893" value="30"/>
+					<Quality count="47089686" value="31"/>
+					<Quality count="118214904" value="32"/>
+					<Quality count="131979588" value="33"/>
+					<Quality count="135122203" value="34"/>
+					<Quality count="219427960" value="35"/>
+					<Quality count="405142229" value="36"/>
+					<Quality count="383280054" value="37"/>
+					<Quality count="1074313442" value="38"/>
+				</QualityCount>
+				<Statistics nreads="2" nspots="17781025">
+					<Read average="90" count="17781025" index="0" stdev="0"/>
+					<Read average="90" count="17781025" index="1" stdev="0"/>
+				</Statistics>
+				<Databases>
+					<Database>
+						<Table name="SEQUENCE">
+							<Statistics source="meta">
+								<Rows count="17781025"/>
+								<Elements count="3200584500"/>
+							</Statistics>
+						</Table>
+					</Database>
+				</Databases>
+				<Bases count="3200584500" cs_native="false">
+					<Base count="769069272" value="A"/>
+					<Base count="789052062" value="C"/>
+					<Base count="866359825" value="G"/>
+					<Base count="774268037" value="T"/>
+					<Base count="1835304" value="N"/>
+				</Bases>
+			</RUN>
+		</RUN_SET>
+	</EXPERIMENT_PACKAGE>
+	
+
+</EXPERIMENT_PACKAGE_SET>
+

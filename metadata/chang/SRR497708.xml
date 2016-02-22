@@ -1,0 +1,234 @@
+<?xml version="1.0" ?>
+<EXPERIMENT_PACKAGE_SET xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	
+
+	<EXPERIMENT_PACKAGE>
+		<EXPERIMENT accession="SRX148398" alias="GSM931774_1" center_name="GEO">
+			<IDENTIFIERS>
+				<PRIMARY_ID>SRX148398</PRIMARY_ID>
+				<SUBMITTER_ID namespace="GEO">GSM931774_1</SUBMITTER_ID>
+			</IDENTIFIERS>
+			<TITLE>GSM931774: Mock_24hr_rep1; Homo sapiens; RNA-Seq</TITLE>
+			<STUDY_REF accession="SRP013224" refname="GSE38006">
+				<IDENTIFIERS>
+					<PRIMARY_ID>SRP013224</PRIMARY_ID>
+					<SUBMITTER_ID namespace="GEO">GSE38006</SUBMITTER_ID>
+				</IDENTIFIERS>
+			</STUDY_REF>
+			<DESIGN>
+				<DESIGN_DESCRIPTION/>
+				<SAMPLE_DESCRIPTOR accession="SRS334136" refname="GSM931774: Mock_24hr_rep1">
+					<IDENTIFIERS>
+						<PRIMARY_ID>SRS334136</PRIMARY_ID>
+					</IDENTIFIERS>
+				</SAMPLE_DESCRIPTOR>
+				<LIBRARY_DESCRIPTOR>
+					<LIBRARY_NAME>GSM931774: Mock_24hr_rep1</LIBRARY_NAME>
+					<LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY>
+					<LIBRARY_SOURCE>TRANSCRIPTOMIC</LIBRARY_SOURCE>
+					<LIBRARY_SELECTION>cDNA</LIBRARY_SELECTION>
+					<LIBRARY_LAYOUT>
+						<SINGLE/>
+					</LIBRARY_LAYOUT>
+				</LIBRARY_DESCRIPTOR>
+				<SPOT_DESCRIPTOR>
+					<SPOT_DECODE_SPEC>
+						<SPOT_LENGTH>75</SPOT_LENGTH>
+						<READ_SPEC>
+							<READ_INDEX>0</READ_INDEX>
+							<READ_CLASS>Application Read</READ_CLASS>
+							<READ_TYPE>Forward</READ_TYPE>
+							<BASE_COORD>1</BASE_COORD>
+						</READ_SPEC>
+					</SPOT_DECODE_SPEC>
+				</SPOT_DESCRIPTOR>
+			</DESIGN>
+			<PLATFORM>
+				<ILLUMINA>
+					<INSTRUMENT_MODEL>Illumina Genome Analyzer IIx</INSTRUMENT_MODEL>
+				</ILLUMINA>
+			</PLATFORM>
+			<PROCESSING/>
+			<EXPERIMENT_LINKS>
+				<EXPERIMENT_LINK>
+					<URL_LINK>
+						<LABEL>GEO Sample</LABEL>
+						<URL>http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM931774</URL>
+					</URL_LINK>
+				</EXPERIMENT_LINK>
+				<EXPERIMENT_LINK>
+					<XREF_LINK>
+						<DB>gds</DB>
+						<ID>300931774</ID>
+					</XREF_LINK>
+				</EXPERIMENT_LINK>
+			</EXPERIMENT_LINKS>
+			<EXPERIMENT_ATTRIBUTES>
+				<EXPERIMENT_ATTRIBUTE>
+					<TAG>GEO Accession</TAG>
+					<VALUE>GSM931774</VALUE>
+				</EXPERIMENT_ATTRIBUTE>
+			</EXPERIMENT_ATTRIBUTES>
+		</EXPERIMENT>
+		<SUBMISSION accession="SRA052952" alias="GEO: GSE38006" broker_name="GEO" center_name="GEO" lab_name="" submission_comment="submission brokered by GEO" submission_date="2012-05-16T13:54:00Z" xsi:noNamespaceSchemaLocation="http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-3/SRA.submission.xsd?view=co">
+			<IDENTIFIERS>
+				<PRIMARY_ID>SRA052952</PRIMARY_ID>
+				<SUBMITTER_ID namespace="GEO">GEO: GSE38006</SUBMITTER_ID>
+			</IDENTIFIERS>
+		</SUBMISSION>
+		<Organization type="center">
+			<Name abbr="GEO">Gene Expression Omnibus</Name>
+		</Organization>
+		<STUDY accession="SRP013224" alias="GSE38006" center_name="GEO">
+			<IDENTIFIERS>
+				<PRIMARY_ID>SRP013224</PRIMARY_ID>
+				<EXTERNAL_ID label="primary" namespace="BioProject">PRJNA167037</EXTERNAL_ID>
+				<EXTERNAL_ID namespace="GEO">GSE38006</EXTERNAL_ID>
+			</IDENTIFIERS>
+			<DESCRIPTOR>
+				<STUDY_TITLE>Next-generation sequencing reveals HIV-1-mediated suppression of T cell activation and RNA processing and the regulation of non-coding RNA expression in a CD4+ T cell line</STUDY_TITLE>
+				<STUDY_TYPE existing_study_type="Transcriptome Analysis"/>
+				<STUDY_ABSTRACT>We sequenced the total mRNA from infected cells and detected differences in the expression of both host mRNA. We detected a small but significant suppression of T cell activation-related genes at 12 hpi. This suppression persisted and expanded by 24 hpi providing new possible markers of virus-induced T cell cytopathology. By 24 hpi the expression of over 50% of detectable host loci was also altered indicating widespread alteration of host processes including RNA processing, splicing, and transport to an extent not previously reported. In addition next-generation sequencing provided insights into the expression of non-coding RNAs including microRNA host genes. Overall design: We isolated polyadenylated RNA from SUPT1 cells infected with HIV-1 strain LAI at 12 and 24 hours post-infection (3 replicates for each time point). As controls we isolated polyadenylated RNA from mock-infected cells at 12 and 24 hours post-infection (2 replicates at 12 hours post-infection, 3 replicates at 24 hours post-infection).</STUDY_ABSTRACT>
+				<CENTER_PROJECT_NAME>GSE38006</CENTER_PROJECT_NAME>
+			</DESCRIPTOR>
+			<STUDY_LINKS>
+				<STUDY_LINK>
+					<XREF_LINK>
+						<DB>pubmed</DB>
+						<ID>21933919</ID>
+					</XREF_LINK>
+				</STUDY_LINK>
+			</STUDY_LINKS>
+		</STUDY>
+		<SAMPLE accession="SRS334136" alias="GSM931774" center_name="GEO">
+			<IDENTIFIERS>
+				<PRIMARY_ID>SRS334136</PRIMARY_ID>
+				<EXTERNAL_ID namespace="BioSample">SAMN00996458</EXTERNAL_ID>
+				<EXTERNAL_ID label="Sample name" namespace="GEO">GSM931774</EXTERNAL_ID>
+			</IDENTIFIERS>
+			<TITLE>Mock_24hr_rep1</TITLE>
+			<SAMPLE_NAME>
+				<TAXON_ID>9606</TAXON_ID>
+				<SCIENTIFIC_NAME>Homo sapiens</SCIENTIFIC_NAME>
+			</SAMPLE_NAME>
+			<SAMPLE_LINKS>
+				<SAMPLE_LINK>
+					<XREF_LINK>
+						<DB>bioproject</DB>
+						<ID>167037</ID>
+						<LABEL>PRJNA167037</LABEL>
+					</XREF_LINK>
+				</SAMPLE_LINK>
+			</SAMPLE_LINKS>
+			<SAMPLE_ATTRIBUTES>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>source_name</TAG>
+					<VALUE>polyA RNA from HIV-infected SUPT1 at 24 hours post-infection, replicate 2</VALUE>
+				</SAMPLE_ATTRIBUTE>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>cell line</TAG>
+					<VALUE>CD4+ human T-cell line SupT1</VALUE>
+				</SAMPLE_ATTRIBUTE>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>infection</TAG>
+					<VALUE>Mock</VALUE>
+				</SAMPLE_ATTRIBUTE>
+				<SAMPLE_ATTRIBUTE>
+					<TAG>time</TAG>
+					<VALUE>24 hours post-infection</VALUE>
+				</SAMPLE_ATTRIBUTE>
+			</SAMPLE_ATTRIBUTES>
+		</SAMPLE>
+		<Pool>
+			<Member accession="SRS334136" bases="2428788450" member_name="" organism="Homo sapiens" sample_name="GSM931774" sample_title="Mock_24hr_rep1" spots="32383846" tax_id="9606">
+				<IDENTIFIERS>
+					<PRIMARY_ID>SRS334136</PRIMARY_ID>
+					<EXTERNAL_ID namespace="BioSample">SAMN00996458</EXTERNAL_ID>
+					<EXTERNAL_ID label="Sample name" namespace="GEO">GSM931774</EXTERNAL_ID>
+				</IDENTIFIERS>
+			</Member>
+		</Pool>
+		<RUN_SET>
+			<RUN accession="SRR497708" alias="GSM931774_r1" center_name="GEO" cluster_name="public" is_public="true" load_done="true" published="2012-05-18 08:30:25" size="1605903790" static_data_available="1" total_bases="2428788450" total_spots="32383846">
+				<IDENTIFIERS>
+					<PRIMARY_ID>SRR497708</PRIMARY_ID>
+					<SUBMITTER_ID namespace="GEO">GSM931774_r1</SUBMITTER_ID>
+				</IDENTIFIERS>
+				<EXPERIMENT_REF accession="SRX148398" refname="GSM931774_1">
+					<IDENTIFIERS>
+						<PRIMARY_ID>SRX148398</PRIMARY_ID>
+						<SUBMITTER_ID namespace="GEO">GSM931774_1</SUBMITTER_ID>
+					</IDENTIFIERS>
+				</EXPERIMENT_REF>
+				<PLATFORM>
+					<ILLUMINA>
+						<INSTRUMENT_MODEL>Illumina Genome Analyzer IIx</INSTRUMENT_MODEL>
+					</ILLUMINA>
+				</PLATFORM>
+				<Pool>
+					<Member accession="SRS334136" bases="2428788450" member_name="" organism="Homo sapiens" sample_name="GSM931774" sample_title="Mock_24hr_rep1" spots="32383846" tax_id="9606">
+						<IDENTIFIERS>
+							<PRIMARY_ID>SRS334136</PRIMARY_ID>
+							<EXTERNAL_ID namespace="BioSample">SAMN00996458</EXTERNAL_ID>
+							<EXTERNAL_ID label="Sample name" namespace="GEO">GSM931774</EXTERNAL_ID>
+						</IDENTIFIERS>
+					</Member>
+				</Pool>
+				<QualityCount>
+					<Quality count="55241263" value="2"/>
+					<Quality count="5202" value="3"/>
+					<Quality count="69456" value="4"/>
+					<Quality count="175028" value="5"/>
+					<Quality count="412085" value="6"/>
+					<Quality count="788271" value="7"/>
+					<Quality count="1059663" value="8"/>
+					<Quality count="1681201" value="9"/>
+					<Quality count="2274310" value="10"/>
+					<Quality count="2432778" value="11"/>
+					<Quality count="1671427" value="12"/>
+					<Quality count="1612347" value="13"/>
+					<Quality count="1992425" value="14"/>
+					<Quality count="3379571" value="15"/>
+					<Quality count="3729323" value="16"/>
+					<Quality count="5113816" value="17"/>
+					<Quality count="7245534" value="18"/>
+					<Quality count="7138015" value="19"/>
+					<Quality count="4407178" value="20"/>
+					<Quality count="4716684" value="21"/>
+					<Quality count="6751898" value="22"/>
+					<Quality count="21822448" value="23"/>
+					<Quality count="6900626" value="24"/>
+					<Quality count="14403152" value="25"/>
+					<Quality count="15588098" value="26"/>
+					<Quality count="28192201" value="27"/>
+					<Quality count="21809510" value="28"/>
+					<Quality count="42199590" value="29"/>
+					<Quality count="38801889" value="30"/>
+					<Quality count="50254913" value="31"/>
+					<Quality count="33664983" value="32"/>
+					<Quality count="138915922" value="33"/>
+					<Quality count="37633406" value="34"/>
+					<Quality count="180714518" value="35"/>
+					<Quality count="153242081" value="36"/>
+					<Quality count="77259223" value="37"/>
+					<Quality count="383393700" value="38"/>
+					<Quality count="450499940" value="39"/>
+					<Quality count="621594775" value="40"/>
+				</QualityCount>
+				<Statistics nreads="1" nspots="32383846">
+					<Read average="75" count="32383846" index="0" stdev="0"/>
+				</Statistics>
+				<Bases count="2428788450" cs_native="false">
+					<Base count="636834628" value="A"/>
+					<Base count="588529271" value="C"/>
+					<Base count="574551888" value="G"/>
+					<Base count="628667963" value="T"/>
+					<Base count="204700" value="N"/>
+				</Bases>
+			</RUN>
+		</RUN_SET>
+	</EXPERIMENT_PACKAGE>
+	
+
+</EXPERIMENT_PACKAGE_SET>
+

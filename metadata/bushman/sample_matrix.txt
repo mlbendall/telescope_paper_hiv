@@ -1,0 +1,6 @@
+run_accession	run_alias	run_bases	run_nspots	run_readperspot	sample_BioSampleModel	sample_accession	sample_age	sample_alias	sample_biomaterial_provider	sample_isolate	sample_replicate	sample_sex	sample_tissue	sample_treatment
+SRR1852881	HIV3	23608835850	116875425	2	Human	SRS866693	Not collected	HIV3	PENN CFAR Immunology Core	ND365	3	male	CD4+ T cells	HIV infected
+SRR1852861	HIV2	22833920622	113039211	2	Human	SRS866400	Not collected	HIV2	PENN CFAR Immunology Core	ND365	2	male	CD4+ T cells	HIV infected
+SRR1852860	HIV1	23672186888	117189044	2	Human	SRS866691	Not collected	HIV1	PENN CFAR Immunology Core	ND365	1	male	CD4+ T cells	HIV infected
+SRR1852859	Control2	23739869412	117524106	2	Human	SRS866399	Not collected	Control2	PENN CFAR Immunology Core	ND365	2	male	CD4+ T cells	Control
+SRR1852858	control1	23477460706	116225053	2	Human	SRS866405	Not collected	Control1	PENN CFAR Immunology Core	ND365	1	male	CD4+ T cells	Control
